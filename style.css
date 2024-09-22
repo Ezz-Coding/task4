@@ -421,22 +421,24 @@ input[type="text"] {
 }
 .Subscribe p{
     color: gray;
+    text-align: left;
+    
 }
 
 .email{
     display: grid;
-    grid-template-columns: 3fr 2fr;
+    grid-template-columns: 3fr 1fr;
     width: 100%;
-    padding: 15px;
-    border-radius: 20px;
+    padding: 3px;
+    border-radius: 40px;
     border: 1px solid gray;
 }
 
 .email .subscribe-btn{
     background-color: #28a745;
     padding: 15px;
-    width: 30%;
-    border-radius: 20px;
+    width: 100%;
+    border-radius: 40px;
     color: white;
     border: 0px;
 }
