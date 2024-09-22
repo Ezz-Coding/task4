@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,9 +8,10 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
     <link rel="stylesheet" href="styleM.css">
-    <body>
+
+<body>
     <!-- navbar -->
-     <nav class="navbar">
+    <nav class="navbar">
         <div class="logo"><img src="images/logo.png"></div>
         <ul class="nav-links">
             <li><a href="#">home</a></li>
@@ -26,7 +28,7 @@
         </div>
     </nav>
     <!-- first image -->
-     <div class="bg-img">
+    <div class="bg-img">
         <div class="overlay-text">
             <h1>We will help you find your <span>Wonderful</span> home</h1>
             <p>A great palteform to buy, sell and rent your properties without any agent or commisions.</p>
@@ -45,12 +47,12 @@
             <div class="search-bar">
                 <div class="search-field">
                     <label for="search">Search: *</label>
-            <div class="br"></div>
-            <div class="br"></div>
+                    <div class="br"></div>
+                    <div class="br"></div>
 
                     <input type="text" id="search" placeholder="Search your home">
                 </div>
-                
+
                 <div class="select-field">
                     <label for="category">Select Category:</label>
                     <select id="category">
@@ -59,7 +61,7 @@
                         <option value="villa">Villa</option>
                     </select>
                 </div>
-                
+
                 <div class="price-field">
                     <label for="min-price">Min Price:</label>
                     <select id="min-price">
@@ -69,7 +71,7 @@
                         <option value="300000">$300,000</option>
                     </select>
                 </div>
-                
+
                 <div class="price-field">
                     <label for="max-price">Max Price:</label>
                     <select id="max-price">
@@ -79,35 +81,35 @@
                         <option value="1000000">$1,000,000</option>
                     </select>
                 </div>
-                
+
                 <div class="search-btn-container">
                     <button class="search-btn">Search now</button>
                 </div>
             </div>
         </div>
-     </div>
-     <!-- video and text section -->
-     <div class="first-sec">
-        <img  src="images/about-banner.jpg" >
+    </div>
+    <!-- video and text section -->
+    <div class="first-sec">
+        <img src="images/about-banner.jpg">
         <!-- <i class="fas fa-play-circle"></i> -->
         <div class="text">
             <h2>Efficiency. Transparency. Control.</h2>
             <p>Hously developed a palteform for the real estate marketplace that
-                allows buyers and sellers to easily execute a transaction on their 
+                allows buyers and sellers to easily execute a transaction on their
                 own. the platform drives efficiency, cost transparency and control into
                 the hands of the consumers. Hously is the real Estate Redefined.
             </p>
             <button class="learnmore-btn">Learn more</button>
         </div>
-     </div>
-     <!-- how it work section -->
-      <div class="text2">
-        
+    </div>
+    <!-- how it work section -->
+    <div class="text2">
+
         <h3>How it works</h3>
         <p>a great plateformr to buy, sell and rent your <br> properties without any agent or commisions.</p>
-      </div>
-      <!-- icons -->
-       <div class="icons">
+    </div>
+    <!-- icons -->
+    <div class="icons">
         <div>
             <i class="fa-solid fa-house"></i>
             <h4>Evaluate Property</h4>
@@ -127,11 +129,206 @@
             <p>If the distribution of letters and 'words' is random. the reader will not
                 be distracted from making.</p>
         </div>
-       </div>
-       <!-- text -->
-        <div class="text2">
-            <h3>Featured properties</h3>
-            <p>a great plateformr to buy, sell and rent your properties without any agent or commisions.</p>
+    </div>
+    <!-- text -->
+    <div class="text2">
+        <h3>Featured properties</h3>
+        <p>a great plateformr to buy, sell and rent your properties without any agent or commisions.</p>
+    </div>
+    <!-- images section -->
+    <!-- <div class="property-grid">
+        <div class="property-card">
+            <div class="card-header">
+                <img src="images/property-6.jpg" alt="House Image">
+                <i class="fas fa-heart"></i>
+            </div>
+            <h3>5133 MCLAIN WAY, Baton Rouge, LA 70809, USA</h3><hr>
+            <p><strong>8000 sqft</strong> | 4 Beds | 4 Baths</p><hr>
+            <p>Price: $5000</p>
+            <p>Rating: ⭐⭐⭐⭐⭐ (5.0/30)</p>
         </div>
+    </div> -->
+    <div class="card-grid">
+        <div class="card">
+          <img src="images/property-1.jpg" alt="House Image" class="card-image">
+          <div class="card-content">
+            <h3>10765 Hillshire Ave, Baton Rouge, LA 70810, USA</h3>
+            <div class="card-details">
+              <span><i class="fas fa-expand"></i> 8000sqf</span>
+              <span><i class="fas fa-bed"></i> 4 Beds</span>
+              <span><i class="fas fa-bath"></i> 4 Baths</span>
+            </div>
+            <div class="card-footer">
+              <div class="price"> Price: $5000</div>
+              <div class="rating">
+                Rating:<i class="fas fa-star"></i> 5.0 (30)
+              </div>
+            </div>
+          </div>
+          <i class="fas fa-heart card-favorite"></i>
+        </div>
+        <!-- Repeat for more cards -->
+        <div class="card">
+            <img src="images/property-2.jpg" alt="House Image" class="card-image">
+            <div class="card-content">
+              <h3>10765 Hillshire Ave, Baton Rouge, LA 70810, USA</h3>
+              <div class="card-details">
+                <span><i class="fas fa-expand"></i> 8000sqf</span>
+                <span><i class="fas fa-bed"></i> 4 Beds</span>
+                <span><i class="fas fa-bath"></i> 4 Baths</span>
+              </div>
+              <div class="card-footer">
+                <div class="price">Price: $5000</div>
+                <div class="rating">
+                    Rating:<i class="fas fa-star"></i> 5.0 (30)
+                </div>
+              </div>
+            </div>
+            <i class="fas fa-heart card-favorite"></i>
+          </div>
+          <div class="card">
+            <img src="images/property-3.jpg" alt="House Image" class="card-image">
+            <div class="card-content">
+              <h3>10765 Hillshire Ave, Baton Rouge, LA 70810, USA</h3>
+              <div class="card-details">
+                <span><i class="fas fa-expand"></i> 8000sqf</span>
+                <span><i class="fas fa-bed"></i> 4 Beds</span>
+                <span><i class="fas fa-bath"></i> 4 Baths</span>
+              </div>
+              <div class="card-footer">
+                <div class="price">Price: $5000</div>
+                <div class="rating">
+                    Rating:<i class="fas fa-star"></i> 5.0 (30)
+                </div>
+              </div>
+            </div>
+            <i class="fas fa-heart card-favorite"></i>
+          </div>
+          <div class="card">
+            <img src="images/property-4.jpg" alt="House Image" class="card-image">
+            <div class="card-content">
+              <h3>10765 Hillshire Ave, Baton Rouge, LA 70810, USA</h3>
+              <div class="card-details">
+                <span><i class="fas fa-expand"></i> 8000sqf</span>
+                <span><i class="fas fa-bed"></i> 4 Beds</span>
+                <span><i class="fas fa-bath"></i> 4 Baths</span>
+              </div>
+              <div class="card-footer">
+                <div class="price">Price: $5000</div>
+                <div class="rating">
+                    Rating:<i class="fas fa-star"></i> 5.0 (30)
+                </div>
+              </div>
+            </div>
+            <i class="fas fa-heart card-favorite"></i>
+          </div>
+          <div class="card">
+            <img src="images/property-5.jpg" alt="House Image" class="card-image">
+            <div class="card-content">
+              <h3>10765 Hillshire Ave, Baton Rouge, LA 70810, USA</h3>
+              <div class="card-details">
+                <span><i class="fas fa-expand"></i> 8000sqf</span>
+                <span><i class="fas fa-bed"></i> 4 Beds</span>
+                <span><i class="fas fa-bath"></i> 4 Baths</span>
+              </div>
+              <div class="card-footer">
+                <div class="price">Price: $5000</div>
+                <div class="rating">
+                    Rating:<i class="fas fa-star"></i> 5.0 (30)
+                </div>
+              </div>
+            </div>
+            <i class="fas fa-heart card-favorite"></i>
+          </div>
+          <div class="card">
+            <img src="images/property-6.jpg" alt="House Image" class="card-image">
+            <div class="card-content">
+              <h3>10765 Hillshire Ave, Baton Rouge, LA 70810, USA</h3>
+              <div class="card-details">
+                <span><i class="fas fa-expand"></i> 8000sqf</span>
+                <span><i class="fas fa-bed"></i> 4 Beds</span>
+                <span><i class="fas fa-bath"></i> 4 Baths</span>
+              </div>
+              <div class="card-footer">
+                <div class="price">Price: $5000</div>
+                <div class="rating">
+                    Rating:<i class="fas fa-star"></i> 5.0 (30)
+                </div>
+              </div>
+            </div>
+            <i class="fas fa-heart card-favorite"></i>
+          </div>
+      </div>
+      
+    <!-- have a question -->
+     <div class="text2">
+        <h3>Have Question ?Get in touch</h3>
+        <p>A great palteform to buy, sell and rent your properties
+            without any agentor commisions.
+        </p>
+        <button class="contactus-btn"><i class="fa-solid fa-phone"></i> contact us</button>
+     </div>
+     <!-- Subscribe to Newsletter! -->
+      <div class="Subscribe">
+        <div >
+            <h2>Subscribe to Newsletter!</h2>
+            <p>Subscribe to get latest updates and information.</p>
+        </div>
+        <div>
+            <input type="email" id="email" placeholder="Enter your email:">
+            <button class="subscribe-btn">Subscribe</button>
+        </div>
+      </div>
+     <!-- footer -->
+    <footer>
+        <div>
+            <img src="images/logo2.png">
+            <p>A great palteform to buy, sell and rent your properties
+                without any agentor commisions.</p>
+        </div>
+        <div>
+            <h4>Company</h4>
+            <ul>
+                <li><a href="#">> About us</a></li>
+                <li><a href="#">> Services</a></li>
+                <li><a href="#">> Pricing</a></li>
+                <li><a href="#">> Blog</a></li>
+                <li><a href="#">> Login</a></li>
+            </ul>
+        </div>
+        <div>
+            <h4>Useful Links</h4>
+            <ul>
+                <li><a href="#">> Terms of Services</a></li>
+                <li><a href="#">> Privacy</a></li>
+                <li><a href="#">> listing</a></li>
+                <li><a href="#">> Contact</a></li>
+            </ul>
+        </div>
+        <div>
+            <h4>Contact Details</h4>
+            <p><i class="fa-solid fa-location-dot"></i> C/54 Northwest Freeway,Suite 558, Houston, USA 485</p>
+            <a href="#"><span>View on Google map</span></a>
+            <p><i class="fa-regular fa-envelope"></i> contact@example.com</p>
+            <p> <i class="fa-solid fa-phone"></i> +152 534-468-854</p>
+        </div>
+       
+        
+        
+    </footer>
+    <hr>
+    <div class="under-footer">
+        <div>
+            <p>&copy; 2024 Realvine. All Rights Reserved by Ahmedrazasikander</p>
+        </div>
+        <div class="socailMedia">
+            <ul>
+                <li><i class="fa-brands fa-facebook"></i></li>
+                <li><i class="fa-brands fa-instagram"></i></li>
+                <li><i class="fa-brands fa-twitter"></i></li>
+                <li><i class="fa-brands fa-linkedin"></i></li>
+            </ul>
+        </div>
+    </div>
 </body>
 </html>
