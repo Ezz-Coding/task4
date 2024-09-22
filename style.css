@@ -422,17 +422,20 @@ input[type="text"] {
 .Subscribe p{
     color: gray;
 }
-.Subscribe input{
-    width: 70%;
+
+.email{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    width: 100%;
     padding: 15px;
     border-radius: 20px;
     border: 1px solid gray;
 }
 
-.subscribe-btn{
+.email .subscribe-btn{
     background-color: #28a745;
     padding: 15px;
-    width: 20%;
+    width: 30%;
     border-radius: 20px;
     color: white;
     border: 0px;
