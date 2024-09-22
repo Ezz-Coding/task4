@@ -1,0 +1,298 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica', sans-serif;
+    background-color: white;
+    color: black;
+    line-height: 1.6;
+}
+
+/* navbar */
+.navbar {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    /* 3 columns: logo, links, button */
+    align-items: center;
+    padding: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: right;
+    list-style: none;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: black;
+    font-size: 15px;
+    transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+    color: gray;
+}
+
+/* signup button */
+.nav-button {
+    padding: 10px 20px;
+    text-transform: capitalize;
+    background-color: lightgreen;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-button:hover {
+    background-color: darkgreen;
+}
+
+/* bg image */
+.bg-img {
+    margin: auto;
+    border-radius: 20px;
+    color: white;
+    position: relative;
+    width: 90%;
+    height: 500px;
+    background-image: url(images/hero-bg.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+.overlay-text {
+    margin-left: 30px;
+    width: 30%;
+    position: absolute;
+    color: white;
+    text-align: left;
+}
+
+.overlay-text h1 {
+    margin-bottom: 10px;
+
+}
+
+.overlay-text span {
+    color: lightgreen;
+}
+
+.overlay-list {
+    list-style: none;
+    position: absolute;
+    color: black;
+    width: 100%;
+}
+
+/* option button section */
+.search-container {
+    position: absolute;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    /* 3 rows: one for options, one for search fields, and one for the search button */
+    gap: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    padding: 20px;
+    max-width: 1200px;
+    margin-top: 630px;
+    margin-left: 40px;
+}
+
+.options {
+    width: 30%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* 3 equally spaced buttons */
+    gap: 10px;
+}
+
+.option-btn {
+    padding: 10px 20px;
+    border: 1px solid white;
+    background-color: white;
+    color: #333;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.option-btn.active,
+.option-btn:hover {
+    background-color: #28a745;
+    color: white;
+}
+
+.search-bar {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    /* 4 columns for search fields */
+    gap: 20px;
+    align-items: center;
+    width: 100%;
+}
+
+.search-field input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    display: block;
+    color: black;
+}
+
+select,
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.price-field {
+    display: flex;
+    flex-direction: column;
+}
+
+.search-btn-container {
+    grid-column: span 4;
+    display: flex;
+}
+
+.search-btn {
+    width: 35%;
+    padding: 10px 20px;
+    background-color: #28a745;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+/* video and text section */
+.first-sec {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 70px;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 250px;
+}
+
+.first-sec img {
+    width: 100%;
+    border-radius: 20px;
+    height: 350px;
+}
+
+.first-sec .text {
+    width: 100%;
+}
+
+.first-sec .text p {
+    color: gray;
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+.first-sec .text h2 {
+    width: 60%;
+}
+
+.learnmore-btn {
+    width: 50%;
+    padding: 10px 20px;
+    background-color: #28a745;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+/* text2 */
+.text2 {
+    display: grid;
+    gap: 10px;
+    text-align: center;
+        margin: 80px;
+}
+
+.text2 h3 {
+    text-transform: capitalize;
+    margin-bottom: 5px;
+
+}
+
+.text2 p {
+    color: gray;
+    width: 40%;
+    font-size: 1rem;
+
+    margin: auto;
+}
+/* icons */
+.icons{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    gap: 70px;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+.icons i{
+    background-color: lightgray;
+    border-radius: 50%;
+    padding:20px;
+    color: #28a745;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: auto;
+
+}
+.icons h4{
+    text-transform: capitalize;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.icons p{
+    text-align: center;
+    color: gray;
+    width: 100%;
+    font-size: 1rem;
+    margin: auto;
+}
