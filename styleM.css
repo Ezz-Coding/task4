@@ -14,6 +14,9 @@
 .text2 br{
     display: none;
 }
+.Subscribe br{
+display: none;
+}
 @media (max-width : 800px) {
     
 * {
@@ -440,6 +443,8 @@ input[type="text"] {
 .Subscribe p{
     color: gray;
     font-size: small;
+    text-align: center;
+    margin-bottom: 40px;
 }
 .Subscribe input{
     width: 70%;
@@ -456,6 +461,7 @@ input[type="text"] {
     color: white;
     border: 0px;
 }
+
 /* footer */
 footer{
     display: grid;
@@ -480,7 +486,9 @@ footer ul{
     list-style: none;
 }
 footer li{
-    color: white
+    color: white;
+    margin-left: 20px;
+
 }
 footer a{
     text-decoration: none;
@@ -488,25 +496,40 @@ footer a{
     color: white;
     font-size: 15px;
     transition: color 0.3s ease;
+    margin-left: 20px;
+
     
 }
-footer span{
+footer h4{
+    margin-left: 20px;
+
+}
+footer  a span{
     color: green;
+  
 }
 footer hr{
     width: 100%;
+    margin: 10%;
+}
+footer p{
+    margin-left: 20px;
 }
 .under-footer{
     color: white;
     background-color: #1a1a1a;
-    padding: 30px 90px;
+    padding: 30px 40px;
     display: grid;
-    grid-template-columns: 4fr 1fr ;
+    grid-template-columns: 1fr ;
     align-items: center;
+}
+.under-footer p{
+    text-align: center;
+    margin-bottom: 40px;
 }
 .socailMedia{
     display: flex;
-    justify-content: right;
+    justify-content: center;
     margin: 0 15px;
     text-decoration: none;
    
@@ -524,6 +547,7 @@ footer hr{
     font-size: 15px;
 
 }
+
 .socailMedia li:hover{
 padding: 10px;
 }
@@ -533,5 +557,7 @@ padding: 10px;
 .text2 span p{
 margin-bottom: 5px;
 }
-
+.Subscribe br{
+    display: block;
+    }
 }

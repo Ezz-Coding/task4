@@ -292,12 +292,21 @@ input[type="text"] {
     margin-bottom: 5px;
     text-align: center;
 }
+.fa-solidfa-house img{
+    width: 25px ;
+}
+.fa-solidfa-suitcase img{
+    width: 25px;
+}
 .icons p{
     text-align: center;
     color: gray;
     width: 100%;
     font-size: 1rem;
     margin: auto;
+}
+.fa-solidfa-key img{
+    width: 25px;
 }
 /* images section */
 .card-grid {
@@ -511,4 +520,15 @@ footer hr{
 }
 .socailMedia li:hover{
 padding: 10px;
+}
+.email input{
+border: 0;
+border-radius: 20px;
+margin-left: 10px;
+}
+ li img{
+background-color: aliceblue;
+width: 30px;
+border-radius: 20px;
+
 }
